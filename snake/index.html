@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slitherin'</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+</head>
+<body onload="modal.showModal()">
+    <dialog id="modal">
+        <p id="heading">SLITHERIN'</p>
+        <p style="font-size: 1.5em;">A Classic Snake Game</p>
+        <button id="start-game" onclick="modal.close()">Play Game</button>
+    </dialog>
+    
+    <div id="container2">
+        <button id="sound"> SOUND ON</button>
+        <div id="score" class="txt">Score:</div>
+        <div id="score-value" class="txt">0</div>
+    </div>
+
+    <div class="container">
+        <div id="board"></div>
+    </div>
+</body>
+<footer>
+    <a href="../hero.html">JS Arcade</a>
+</footer>
+<script src="js/index.js"></script>
+</html>

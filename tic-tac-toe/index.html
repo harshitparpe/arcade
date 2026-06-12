@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<link rel="icon" href="https://cdn-icons-png.freepik.com/256/10199/10199841.png?ga=GA1.1.382695037.1698058756&semt=ais">
+<body>
+    <div id="mode-container">
+        <button id="mode">
+            <img id="light-mode" style="display: none;" src="https://cdn-icons-png.freepik.com/256/1163/1163661.png?ga=GA1.1.382695037.1698058756&semt=ais" alt="light mode"></img>
+            <img id="dark-mode" style="display: flex;" src="https://cdn-icons-png.freepik.com/256/7334/7334208.png?ga=GA1.1.382695037.1698058756&semt=ais" alt="dark mode">
+        </button>
+    </div>
+    <div class="msg-container hide">
+        <p id="msg">Winner!</p>
+        <button id="new-button">New Game</button>
+    </div>
+    <main>
+        <h1 style="margin-top: 20px;">TIC TAC TOE</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset-button">Reset Game</button>
+    </main>
+    <script src="./script.js"></script>
+</body>
+<footer>
+    <a href="../hero.html">JS Arcade</a>
+</footer>
+</html>

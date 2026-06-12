@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("../abtract-background-3d_524711-214.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container2{
+    display: flex;
+}
+
+.txt{
+    font-size: 4vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sound{
+    border: none;
+    background: none;
+    margin-right: 10em;
+}
+
+#sound img{
+    height: 4vmin;
+}
+
+#sound :hover{
+    cursor: pointer;
+}
+
+#board{
+    background: rgba(255, 255, 255, 0.421);
+    backdrop-filter: blur(10px);
+    width: 90vmin;
+    height: 92vmin;
+    border: 5px solid white;
+    border-radius: .5em;
+    display: grid;
+    grid-template-rows: repeat(18 ,1fr);
+    grid-template-columns: repeat(18 ,1fr);
+}
+
+.head{
+    background-color: rgb(21, 75, 161);
+    border-radius: .2em;
+}
+
+.snake{
+    background-color: rgb(28, 95, 204);
+    border-radius: .2em;
+}
+
+.food{
+    background: radial-gradient(red, rgb(183, 40, 40));
+    border-radius: 100%;
+}
+
+dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+    min-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    gap: 1em;
+}
+
+#heading{
+    font-size: 7em;
+    color: rgb(28, 95, 204);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#start-game{
+    background: none;
+    border: none;
+    font-size: 2em; 
+    color: rgb(221, 18, 18);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#start-game:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+#sound:hover{
+    cursor: pointer;
+}
+
+footer{
+    margin-top: auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-bottom: 1em;
+    color: rgb(39, 24, 126);
+}
+
+body{
+    background-color: rgb(117, 139, 253);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice img{
+    height: 6rem;
+}
+
+.choice {
+    padding: 1em;
+    background-color: rgb(39, 24, 126);
+    border-radius: 2rem;
+    border: solid rgb(39, 24, 126) 5px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
+
+#user-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.choice:hover{
+    border: solid rgb(174, 184, 254) 5px;
+    cursor: pointer;
+    /* opacity: .8; */
+    box-shadow: 0  0 15px;
+}
+
+.score-board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(39, 24, 126);
+    gap: 3em;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#user-score, #comp-score {
+    font-size: 2em;
+}
+
+#msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 24, 126);
+    color: white;
+    width: 30vw;
+    font-size: 2em;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#computer-container{
+    display: inline;
+    flex-direction: column;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lol{
+    width: 6rem;
+    padding: 1em;
+    background-color: rgb(39, 24, 126);
+    border-radius: 2rem;
+    border: solid rgb(39, 24, 126) 5px;
+}
+
+.hi{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: rgb(39, 24, 126);
+}
+
+footer{
+    margin-top: auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

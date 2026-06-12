@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Calculate your BMI</h1>
+        <div>
+            <label for="weight">WEIGHT (kg): </label>
+            <input type="range" min="10" max="150" class="slider" id="weight-input"><text id="weight-output">80kg</text>
+        </div>
+        <div>
+            <label for="height">HEIGHT (cm):</label>
+            <input type="range" min="10" max="200" class="slider" id="height-input"><text id="height-output">105cm</text>
+        </div>
+        <button type="submit" id="submit">CALCULATE</button>
+        <h2 id="output">BMI: </h2>
+        <a href="https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmi_tbl.htm">
+            BMI Chart
+        </a>
+    </div>
+    <script src="./script.js"></script>
+    <script></script>
+</body>
+<footer>
+    <a href="../hero.html">JS Arcade</a>
+</footer>
+</html>

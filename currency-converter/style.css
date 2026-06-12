@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(103, 90, 255, 1);
+    gap: 5em;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50em;
+    max-width: 20em;
+    height: 40vh;
+    border: none;
+    border-radius: 1.2em;
+    background: rgb(255, 255, 255);
+
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+
+    gap: 1em;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1em;
+    gap: 5px;
+}
+
+#lol{
+    height: 1em;
+}
+
+#small_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 15em;
+    height: 2em;
+    font-size: 1rem;
+    border: solid black 1px;
+    border-radius: .4em;
+    padding-left: .5em;
+}
+
+footer{
+    margin-top: auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+#output{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: .7em;
+}
+
+select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 5em;
+    border: solid black 1px;
+    border-radius: .3em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
